@@ -1,0 +1,64 @@
+.navigation-menu {
+    
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    justify-content: center;    
+}
+
+.navigation-menu li{
+    /* The first value (0px) sets the top and bottom margins.
+    The second value (20px) sets the right and left margins. */
+    margin: 0px 20px; 
+
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white; 
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+.navigation-menu li a:hover{
+    color: goldenrod;
+    text-decoration: double;
+}
+
+/* mobile nagivation */
+
+/*  */
+
+
+
+.modal-background {
+    background-image: url('/src/images/icp5.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/*  */
+
+.mobile-navigation {
+   
+    padding: 0;
+}
+
+.mobile-navigation li {
+    
+    margin: 6px 0; 
+}
+
+
+
+.mobile-navigation li a:hover,
+.mobile-navigation li button:hover {
+    color: goldenrod;
+    text-decoration: none; /* Remove text decoration on hover */
+}
+
+
+
+
+
